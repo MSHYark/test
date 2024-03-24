@@ -1,0 +1,28 @@
+.container{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: calc(5px + 4 * (100vw / 1280));
+    color: gold;
+}
+.back{
+    display: list-item;
+    background-color: black;
+    background-attachment: fixed;
+}
+.containerbutton{
+    display: flex;
+    
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: calc(5px + 4 * (100vw / 1280));
+    flex-direction: column;
+}
+
+.contaynerForm{
+    
+    color: gold;
+}
